@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+	overflow: hidden;
+	background: #42cef5;
+}
+
+.flipbook {
+    align: center;
+    width: 150%;
+    height: 600px;
+}
+
+.flipbook .hard {
+    background: #ffffff !important;
+    border: none; 
+}
+
+
+.flipbook .page {
+    background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.page img{
+	width: 100%;
+        heigth: 100%;
+	object-fit: contain;
+	margin: auto;
+}
