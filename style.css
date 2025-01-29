@@ -9,13 +9,15 @@ body {
     place-content: center;
     height: 100vh;
     width: 100vw;
-	overflow: hidden;
-	background: #42cef5;
+    overflow: hidden;
+    background: #42cef5;
 }
 
 .flipbook {
-    width: 150%;
-    height: 600px;
+   width: 90vw; /* Adjust width to 90% of viewport width */
+   height: auto; /* Allow height to adjust based on content */ 
+   max-height: 600px; /* Set a maximum height to prevent excessive scaling */
+   margin: 0 auto; /* Center horizontally */
 }
 
 .flipbook .hard {
