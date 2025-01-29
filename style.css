@@ -14,10 +14,8 @@ body {
 }
 
 .flipbook {
-   width: 90vw; /* Adjust width to 90% of viewport width */
-   height: auto; /* Allow height to adjust based on content */ 
-   max-height: 600px; /* Set a maximum height to prevent excessive scaling */
-   margin: 0 auto; /* Center horizontally */
+   width: 150%; /* Adjust width to 90% of viewport width */
+   height: 600px; /* Allow height to adjust based on content */ 
 }
 
 .flipbook .hard {
