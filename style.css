@@ -19,6 +19,7 @@ body {
     width: 90vw;
     height: auto;
     max-height: 600px;
+    margin: 0 auto;
 }
 
 .flipbook .hard {
