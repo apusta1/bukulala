@@ -14,8 +14,9 @@ body {
 }
 
 .flipbook {
-   width: 150%; 
-   height: 98vh;  
+   width: 61vw; 
+   height: 98vh;
+   margin: 0 auto;
 }
 
 .flipbook .hard {
