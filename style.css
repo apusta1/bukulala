@@ -5,7 +5,7 @@
 	font-family: "Poppins", sans-serif;
 }
 
-@media screen (max-width: auto) {
+@media screen (max-width: 600px) {
 body {
     display: grid;
     place-content: center;
