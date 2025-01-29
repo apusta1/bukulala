@@ -17,8 +17,9 @@ body {
 
 .flipbook {
     align: center;
-    width: 150%;
-    height: 600px;
+    width: 90vw;
+    height: auto;
+    max-height: 600px;
 }
 
 .flipbook .hard {
@@ -39,7 +40,7 @@ body {
 
 .page img{
 	width: 100%;
-        heigth: 100%;
+        heigth: auto;
 	object-fit: contain;
 	margin: auto;
 }
