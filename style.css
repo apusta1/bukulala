@@ -36,8 +36,7 @@ body {
 
 .flipbook .hard small{
 	font-color: red;
-	font-face: Arial;
-	font-weight: lighter;
+	font-family: Arial;
 	opacity: 0.7;
 	font-size: 14px;
 }
