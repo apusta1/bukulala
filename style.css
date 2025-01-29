@@ -16,7 +16,6 @@ body {
 }
 
 .flipbook {
-    align: center;
     width: 90vw;
     height: auto;
     max-height: 600px;
