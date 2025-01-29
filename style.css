@@ -5,7 +5,6 @@
 	font-family: "Poppins", sans-serif;
 }
 
-@media screen (max-width: 600px) {
 body {
     display: grid;
     place-content: center;
@@ -16,10 +15,9 @@ body {
 }
 
 .flipbook {
-    width: 90vw;
-    height: auto;
-    max-height: 600px;
-    margin: 0 auto;
+    align: center;
+    width: 150%;
+    height: 600px;
 }
 
 .flipbook .hard {
@@ -40,8 +38,7 @@ body {
 
 .page img{
 	width: 100%;
-        heigth: auto;
+        heigth: 100%;
 	object-fit: contain;
 	margin: auto;
-}
 }
