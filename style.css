@@ -13,12 +13,14 @@ body {
     background: #42cef5;
 }
 
-.flipbook {
-   width: 61vw; 
-   height: 98vh;
-   margin: 0 auto;
+@media (min-width: 480px) {
+ .flipbook {
+    width: 61vw; 
+    height: 98vh;
+    margin: 0 auto;
+ }
 }
-
+	
 .flipbook .hard {
     background: #ffffff;
     border: none; 
